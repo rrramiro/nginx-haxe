@@ -1,0 +1,14 @@
+{
+  "name": "haxelib",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "nadako.vshaxe",
+        "earthly.earthfile-syntax-highlighting"
+      ]
+    }
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "./setup.sh"
+}

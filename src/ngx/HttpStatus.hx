@@ -1,7 +1,7 @@
 package ngx;
 
 @:native("ngx")
-@:enum extern abstract HttpStatus(Int) {
+extern enum abstract HttpStatus(Int) {
     var HTTP_CONTINUE : Int;
     var HTTP_SWITCHING_PROTOCOLS : Int;
     var HTTP_OK : Int;
